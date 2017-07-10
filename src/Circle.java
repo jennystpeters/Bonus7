@@ -14,8 +14,6 @@ public class Circle {
         return (2 * Math.PI * radius);
     }
 
-    //Call formatNumber by sending the calculated Circumference
-    //Calculated Cicumference is done by calling getCircumference
     public String getFormattedCircumference() {
         return formatNumber(this.getCircumference());
     }
