@@ -14,19 +14,22 @@ public class Circle {
         return (2 * Math.PI * radius);
     }
 
-//    public String getFormattedCircumference() {
-//
-//    }
+    //Call formatNumber by sending the calculated Circumference
+    //Calculated Cicumference is done by calling getCircumference
+    public String getFormattedCircumference() {
+        return formatNumber(this.getCircumference());
+    }
 
     public double getArea() {
         return (Math.PI * Math.pow(radius, 2));
     }
-//
-//    public String getFormattedArea() {
-//
-//    }
-//
-//    private String formatNumber(double x) {
-//
-//    }
+
+    public String getFormattedArea() {
+        return formatNumber(this.getArea());
+    }
+
+    //Format numbers to the nearest 2 decimal places
+    private String formatNumber(double x) {
+        return String.format("%.2f", x);
+    }
 }

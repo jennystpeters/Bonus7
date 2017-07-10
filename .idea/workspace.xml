@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ddf2e22-2732-4ad7-a5a5-f2e1b089ed7e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Circle.java" afterPath="$PROJECT_DIR$/src/Circle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CircleApp.java" afterPath="$PROJECT_DIR$/src/CircleApp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +19,8 @@
       <file leaf-file-name="CircleApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CircleApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="475">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -28,15 +29,20 @@
       <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="275">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -729,12 +735,12 @@
       <option name="presentableId" value="Default" />
       <updated>1499644373729</updated>
       <workItem from="1499644375042" duration="2561000" />
-      <workItem from="1499690730648" duration="1314000" />
+      <workItem from="1499690730648" duration="2170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3875000" />
+    <option name="totallyTimeSpent" value="4731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="35" width="1942" height="1056" extended-state="6" />
@@ -804,31 +810,41 @@
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="275">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#126#127#0" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CircleApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="475">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>

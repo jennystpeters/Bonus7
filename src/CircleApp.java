@@ -15,9 +15,9 @@ public class CircleApp {
             Circle circle1 = new Circle(getRadius(entry));
             entry.nextLine();
 
-            System.out.printf("Circumference: %.2f", circle1.getCircumference());
+            System.out.print("Circumference: " + circle1.getFormattedCircumference());
 
-            System.out.printf("\nArea: %.2f", circle1.getArea());
+            System.out.print("\nArea: " + circle1.getFormattedArea());
 
             System.out.print("\nContinue? (y/n): ");
             keepGoing = entry.nextLine();
