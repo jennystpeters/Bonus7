@@ -7,16 +7,13 @@ public class CircleApp {
     public static void main(String[] args) {
         Scanner entry = new Scanner(System.in);
         String keepGoing = "y";
-        double radius;
 
         System.out.println("Welcome to the Circle Tester");
 
-        while(keepGoing.equalsIgnoreCase("y")) {
-            System.out.print("Enter radius: ");
-            radius = entry.nextInt();
-            entry.nextLine();
+        while (keepGoing.equalsIgnoreCase("y")) {
 
-            Circle circle1 = new Circle(radius);
+            Circle circle1 = new Circle(getRadius(entry));
+            entry.nextLine();
 
             System.out.printf("Circumference: %.2f", circle1.getCircumference());
 
@@ -26,5 +23,10 @@ public class CircleApp {
             keepGoing = entry.nextLine();
         }
         System.out.print("\nGoodbye.");
+    }
+
+    private static double getRadius(Scanner entry) {
+        System.out.print("Enter radius: ");
+        return entry.nextInt();
     }
 }
